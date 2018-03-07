@@ -4,8 +4,8 @@ NEETCOIN-qt: Qt5 GUI for NEETCOIN
 Build instructions
 ===================
 
-Debian
--------
+Debian or Ubuntu
+-----------------
 
 First, make sure that the required packages for Qt5 development of your
 distribution are installed, for Debian and Ubuntu these are:
@@ -27,6 +27,16 @@ then execute the following:
 Alternatively, install Qt Creator and open the `NEETCOIN-qt.pro` file.
 
 An executable named `NEETCOIN-qt` will be built.
+
+
+Gentoo
+------
+::
+    
+::
+    /usr/lib/qt5/bin/qmake
+    make
+
 
 
 Windows
